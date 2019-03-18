@@ -1,2 +1,2 @@
 # bubbletalk-message
-Message Server for Bubbletlak
+Message Server for Bubbletalk
