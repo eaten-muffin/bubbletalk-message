@@ -1,0 +1,21 @@
+
+spring:
+  profiles:
+    active: local
+server:
+  port: 8081
+---
+spring:
+  profiles: local
+  datasource:
+    platform: h2
+    username: sa
+    password:
+  jpa:
+    database-platform: H2
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true
